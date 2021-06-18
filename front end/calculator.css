@@ -1,0 +1,25 @@
+body{
+    background-color:#EDFFEC;
+}
+#calculator-body{
+    /*border:1px solid black;*/
+    border-radius:10px;
+    margin: auto;
+    background-color: #B9FFFC;
+    height:500px;
+    width:80%;
+    
+}
+#display-body{
+    height:200px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    /*border-bottom: 1px solid black;*/
+    background-color: #CFFFFE;
+
+}
+#operation-body{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:5px 5px;
+}
