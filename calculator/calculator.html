@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          calculator
+        </title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div id="calculator-body">
+            <div id="display-body">
+                <p id="display-content"></p>
+            </div>
+            <div id="operation-body">
+                <div class="operators"><p class="operator" onclick="clr(this)">AC</p></div>
+                <div class="operators"><p class="operator" onclick="del(this)">X</p></div>
+                <div class="operators"><p class="operator" onclick="operation(this)">%</p></div>  
+                <div class="operators"><p class="operator" onclick="operation(this)">/</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">7</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">8</p></div>  
+                <div class="operators"><p class="operator" onclick="number(this)">9</p></div>
+                <div class="operators"><p class="operator" onclick="operation(this)">x</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">4</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">5</p></div> 
+                <div class="operators"><p class="operator" onclick="number(this)">6</p></div>
+                <div class="operators"><p class="operator" onclick="operation(this)">-</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">1</p></div>  
+                <div class="operators"><p class="operator" onclick="number(this)">2</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">3</p></div>
+                <div class="operators"><p class="operator" onclick="operation(this)">+</p></div>  
+                <div class="operators"><p class="operator" onclick="dec()">.</p></div>
+                <div class="operators"><p class="operator" onclick="number(this)">0</p></div>
+                <div class="operators"><p class="operator">()</p></div>
+                <div class="operators"><p class="operator" onclick="calc()">=</p></div> 
+
+            </div>
+        </div>
+        <script type="text/javascript" src="calculator.js">
+        console.log('hi');
+
+        </script>
+    </body>
+</html>
